@@ -4,6 +4,12 @@
 
 Skills for AI agents
 
+## Installation
+
+```bash
+npx skills add https://github.com/guribo/skills
+```
+
 ## Available Skills
 
 ### [Teaching](skills/teaching)
