@@ -1,0 +1,23 @@
+{
+  "skill_name": "skill-completer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I just loaded the skill-creator skill. I want to create a new skill for formatting CSV files. Can you help me get started?",
+      "expected_output": "Loads all bundled resources from skill-creator (scripts/, references/, agents/, assets/) and suggests relevant complementary skills like documentation-and-adrs or writing-plans",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I'm working on a VRChat world and just invoked the unity-vrc-udon-sharp skill. I need to write a synced variable system for player data persistence.",
+      "expected_output": "Loads any bundled resources from unity-vrc-udon-sharp, then suggests unity-vrc-world-sdk-3 as a complementary skill since VRChat world development typically needs both",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I loaded the caveman skill. Now help me write a brief commit message for adding error handling to the API layer.",
+      "expected_output": "Checks caveman skill for bundled resources (likely none), then considers if conventional-commit skill would be complementary for commit message formatting",
+      "files": []
+    }
+  ]
+}
